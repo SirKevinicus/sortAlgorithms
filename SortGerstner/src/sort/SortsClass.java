@@ -72,7 +72,7 @@ public class SortsClass {
 		} // end for
 	} // end bubbleSort
 
-	public static void insertionSort(Comparable[] theArray, int n) {
+	public void insertionSort(Comparable[] theArray, int n) {
 		// ---------------------------------------------------
 		// Sorts the items in an array into ascending order.
 		// Precondition: theArray is an array of n items.
@@ -158,7 +158,7 @@ public class SortsClass {
 		} // end for
 	} // end merge
 
-	public static void mergesort(Comparable[] theArray, int first, int last) {
+	public void mergesort(Comparable[] theArray, int first, int last) {
 		// ---------------------------------------------------------
 		// Sorts the items in an array into ascending order.
 		// Precondition: theArray[first..last] is an array.
