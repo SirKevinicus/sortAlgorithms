@@ -44,7 +44,7 @@ public class SortsClass {
 		return indexSoFar; // index of largest item
 	} // end indexOfLargest
 
-	public static void bubbleSort(Comparable[] theArray, int n) {
+	public void bubbleSort(Comparable[] theArray, int n) {
 
 		// ---------------------------------------------------
 		// Sorts the items in an array into ascending order.
@@ -229,7 +229,7 @@ public class SortsClass {
 		return lastS1;
 	} // end partition
 
-	public static void quickSort(Comparable[] theArray, int first, int last) {
+	public void quickSort(Comparable[] theArray, int first, int last) {
 		// ---------------------------------------------------------
 		// Sorts the items in an array into ascending order.
 		// Precondition: theArray[first..last] is an array.
