@@ -15,7 +15,7 @@ public class sortingAlgorithms {
 		//Create files and store them in files
 		File[] files = numGen.createNumFiles();
 		
-		/*System.out.println("--------------");
+		System.out.println("--------------");
 		System.out.println("SELECTION SORT");
 		System.out.println("--------------");
 		
@@ -25,7 +25,7 @@ public class sortingAlgorithms {
 			tester.selectionSort(test, test.length);
 			endTime = System.currentTimeMillis();
 			System.out.println(endTime - startTime);
-		}*/
+		}
 		
 		System.out.println("--------------");
 		System.out.println("INSERT SORT");
@@ -44,7 +44,7 @@ public class sortingAlgorithms {
 		for (int x = 0; x < files.length; x++) {
 			Integer[] test = fileMan.getArrayFromFile(files[x]);
 			startTime = System.currentTimeMillis();
-			tester.mergesort(test, test[0], test[test.length]);
+			tester.mergesort(test, test[0], test[test.length-1]);
 			endTime = System.currentTimeMillis();
 			System.out.println(endTime - startTime);
 		}
